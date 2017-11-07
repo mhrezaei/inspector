@@ -30,15 +30,20 @@ class User_authentication extends CI_Controller {
         $pass = $this->input->post('password', TRUE, TRUE);
         $security = $this->input->post('question', TRUE, TRUE);
         $securityQa = $this->input->post('txtLoginQsK', TRUE, TRUE);
+        $data = array();
         if($security)
         {
-            if(securityQuestion($security, $securityQa, TRUE, 'userLoginQs'))
+            if(1 or securityQuestion($security, $securityQa, TRUE, 'userLoginQs'))
             {
                 if($user AND $pass)
                 {
                     if($this->userauthentication_model->login_user())
                     {
-                        redirect(base_url());
+//                        showArray($user);
+//                        showArray($pass);
+                        showArray($this->session->userdata('user'));
+//                        exit;
+                        //redirect(base_url());
                     }
                     else
                     {

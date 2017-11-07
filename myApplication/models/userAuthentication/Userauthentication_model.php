@@ -20,7 +20,7 @@ class Userauthentication_model extends CI_Model {
             if($query->num_rows() > 0)
             {
                 $data['user_data'] = $query->row_array();
-                $session = '';
+                $session = array();
                 $session['user'] = array(
                     'uid' => $data['user_data']['email'],
                     'authCode' => md5($data['user_data']['authCode']),

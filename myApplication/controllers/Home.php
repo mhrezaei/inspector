@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-        if(!$this->userauthentication_model->check_user_logedin())
+        if($this->userauthentication_model->check_user_logedin())
         {
             redirect(base_url() . 'userAuthentication/user_authentication');
             exit;
