@@ -11,6 +11,10 @@
         width: calc(100% - 25px);
         float: right;
     }
+    .stNumber, #stNumber{
+        /*color: blue;*/
+        cursor: pointer;
+    }
 </style>
 <div class="panel panel-default panelContent" id="loginInfo">
     <div class="panel-heading" style="padding-left: 0px;">
@@ -24,7 +28,7 @@
         <div style="width: 100%; height: auto; direction: rtl; margin: 0 auto;">
 
             <div id="addPatientFrom" style="width: 1000px; margin: 0 auto;">
-                <form class="" role="form" name="statisticsInformationForm" id="statisticsInformationForm" method="post">
+                <form class="" role="form" name="statisticsInformationForm" id="statisticsInformationForm" method="post" target="_blank" action="<?php echo base_url(); ?>admin/statistics_out">
 
                 <div class="formCat">مشخصات فردی و سطح هوشیاری</div>
                 <div class="clearB"></div>
@@ -704,7 +708,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td id="stNumber"></td>
+                    <td class="stNumber" onclick="statistics_out()"><span style="color: blue; font-size: 10px;">(خروجی) </span><span id="stNumber"> </span></td>
                     <td id="stHeart"></td>
                     <td id="stLungRight"></td>
                     <td id="stLungLeft"></td>

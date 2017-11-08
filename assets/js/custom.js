@@ -3580,3 +3580,7 @@ function statistics()
         j--;
     }
 }
+
+function statistics_out() {
+    document.statisticsInformationForm.submit();
+}
