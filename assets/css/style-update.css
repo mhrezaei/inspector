@@ -17,8 +17,14 @@
 *-------------------------------------------------------
 */
 
+
 #extraContent{
-    border-bottom: 0;
+    /*border-bottom: 0;*/
+    height: auto;
+    margin-top: 50px;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+    background-color: #f9f9f9;
 }
 
 /*
@@ -30,8 +36,9 @@
 #topContent{
     background-color: #f9f9f9;
     border-bottom: 0;
-    padding: 20px 0;
+    padding: 30px 0 20px;
     height: auto;
+    box-shadow: inset 0px -3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .topContentTitle{
@@ -42,6 +49,14 @@
     margin-top: 0;
     margin-bottom: 3px;
 }
+
+.topContentTitle h2 span{
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid #a7a7a7;
+    border-radius: 3px;
+}
+
 .topContentTitle small.text-info{
     margin-bottom: 10px;
     display: inline-block;
@@ -81,4 +96,30 @@
 }
 .time-date-container .date{
     font-size: 14px;
+}
+
+/*
+*-------------------------------------------------------
+* dataComponent
+*-------------------------------------------------------
+*/
+
+#dataComponent{
+    padding: 50px 0;
+}
+
+.dataComponent{
+    max-width: 300px;
+    min-width: auto;
+    width: auto;
+    float: none;
+}
+
+.dataComponent .dataComponentText.textOnly{
+    font-family: IRANSans;
+}
+
+.dataComponent .dataComponentText .percent{
+    display: inline-block;
+    margin: 0 7px;
 }
