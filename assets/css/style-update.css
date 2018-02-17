@@ -1,3 +1,84 @@
+/*
+*-------------------------------------------------------
+* General Styles
+*-------------------------------------------------------
+*/
 *{
     font-family:IRANSans;
+}
+
+.text-gray_dark{
+    color: #333;
+}
+
+/*
+*-------------------------------------------------------
+* Extra Content
+*-------------------------------------------------------
+*/
+
+#extraContent{
+    border-bottom: 0;
+}
+
+/*
+*-------------------------------------------------------
+* Top Content
+*-------------------------------------------------------
+*/
+
+#topContent{
+    background-color: #f9f9f9;
+    border-bottom: 0;
+    padding: 20px 0;
+    height: auto;
+}
+
+.topContentTitle{
+    font-family: IRANSans;
+}
+.topContentTitle h2{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.topContentTitle small.text-info{
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #a7a7a7;
+}
+
+.topContentTitle .welcome-note{
+    color: #666;
+}
+
+.time-date-container{
+    max-width: 300px;
+    margin: 25px auto 0;
+    text-align: center;
+    font-size: 18px;
+}
+.time-date-container .time-date-inner{
+    max-width: 150px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.time-date-container .time{
+    font-size: 22px;
+    font-weight: 300;
+    color: #929292;
+    margin-bottom: 5px;
+}
+.time-date-container .time hr{
+    max-width: 100px;
+    margin: 0 auto;
+}
+.time-date-container .week-day{
+
+}
+.time-date-container .date{
+    font-size: 14px;
 }
