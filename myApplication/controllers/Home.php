@@ -15,11 +15,14 @@ class Home extends CI_Controller {
     public function index()
 	{
         $data = '';
+        $panelData = array('data'=>$data, 'login_info'=> $this->header_model->login_info() );
+//        var_dump($panelData);
         $this->load->view('templates/header', $this->header_model->header_data());
         $this->load->view('templates/topMain', $this->header_model->login_name_info());
         $this->load->view('templates/dataComponent', $this->header_model->data_component());
-        $this->load->view('templates/loginInfo', $this->header_model->login_info());
-        $this->load->view('templates/homeChart', $data);
+//        $this->load->view('templates/loginInfo', $this->header_model->login_info());
+//        $this->load->view('templates/homeChart', $data);
+        $this->load->view('templates/controlPanel', $panelData);
         $this->load->view('templates/footer', $this->header_model->footer_data());
 	}
     

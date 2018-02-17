@@ -132,4 +132,4 @@ $(function () {
     });
 });
         </script>
-        <script type="text/javascript" src="<?php echo asset_url(); ?>charts/js/highcharts.src.js"></script>
+<script type="text/javascript" src="<?php echo asset_url(); ?>charts/js/highcharts.src.js"></script>

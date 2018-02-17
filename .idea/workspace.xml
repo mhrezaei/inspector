@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11577888-6399-433d-95a3-e5066a63fb06" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style-update.css" afterPath="$PROJECT_DIR$/assets/css/style-update.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/dataComponent.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/dataComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/topMain.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/topMain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/controllers/Home.php" afterPath="$PROJECT_DIR$/myApplication/controllers/Home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" />
     </list>
     <ignored path="inspector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,14 +34,14 @@
     <favorites_list name="inspector" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63693076">
+    <splitter split-orientation="horizontal" split-proportion="0.4753587">
       <split-first>
         <leaf>
-          <file leaf-file-name="dataComponent.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dataComponent.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApplication/views/templates/dataComponent.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="676">
-                  <caret line="171" column="42" lean-forward="true" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+                <state relative-caret-position="416">
+                  <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -108,6 +108,62 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="controlPanel.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="homeChart.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homeChart.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+                    <element signature="n#script#0;n#!!top" expanded="false" />
+                    <element signature="e#1384#2773#0#HTML" expanded="false" />
+                    <element signature="e#2789#4591#0#HTML" expanded="false" />
+                    <element signature="e#2822#4587#0#HTML" expanded="false" />
+                    <element signature="e#2839#2877#0#HTML" expanded="false" />
+                    <element signature="e#2894#2963#0#HTML" expanded="false" />
+                    <element signature="e#2980#3119#0#HTML" expanded="false" />
+                    <element signature="e#3136#3240#0#HTML" expanded="false" />
+                    <element signature="e#3177#3230#0#HTML" expanded="false" />
+                    <element signature="e#3259#3616#0#HTML" expanded="false" />
+                    <element signature="e#3639#3752#0#HTML" expanded="false" />
+                    <element signature="e#3661#3742#0#HTML" expanded="false" />
+                    <element signature="e#3770#4581#0#HTML" expanded="false" />
+                    <element signature="e#3771#3909#0#HTML" expanded="false" />
+                    <element signature="e#3911#4048#0#HTML" expanded="false" />
+                    <element signature="e#4050#4181#0#HTML" expanded="false" />
+                    <element signature="e#4183#4314#0#HTML" expanded="false" />
+                    <element signature="e#4316#4447#0#HTML" expanded="false" />
+                    <element signature="e#4449#4580#0#HTML" expanded="false" />
+                    <marker date="1518875414430" expanded="false" signature="3301:3315" ph="..." />
+                    <marker date="1518875414430" expanded="false" signature="3386:3416" ph="..." />
+                    <marker date="1518875414430" expanded="false" signature="3470:3479" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -115,8 +171,8 @@
           <file leaf-file-name="style-update.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="112" column="20" lean-forward="false" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+                <state relative-caret-position="128">
+                  <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -155,8 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myApplication/models/opuPages/Managepatientbraindeath_model.php" />
-        <option value="$PROJECT_DIR$/myApplication/models/opuPages/Managepatient_model.php" />
         <option value="$PROJECT_DIR$/myApplication/models/adminPages/Manageopu_model.php" />
         <option value="$PROJECT_DIR$/myApplication/models/adminPages/Managehospital_model.php" />
         <option value="$PROJECT_DIR$/myApplication/views/adminPages/manageHospital.php" />
@@ -195,7 +249,6 @@
         <option value="$PROJECT_DIR$/myApplication/models/adminPages/Addpatient_model.php" />
         <option value="$PROJECT_DIR$/myApplication/models/ajax/Ajax_model.php" />
         <option value="$PROJECT_DIR$/myApplication/controllers/admin/Statistics_and_information.php" />
-        <option value="$PROJECT_DIR$/myApplication/controllers/Home.php" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/myApplication/views/adminPages/statistics_and_information.php" />
         <option value="$PROJECT_DIR$/myApplication/models/publicPages/Managepatientquery_model.php" />
@@ -206,6 +259,9 @@
         <option value="$PROJECT_DIR$/myApplication/views/templates/topMain.php" />
         <option value="$PROJECT_DIR$/assets/css/style-update.css" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/dataComponent.php" />
+        <option value="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" />
+        <option value="$PROJECT_DIR$/myApplication/controllers/Home.php" />
+        <option value="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
       </list>
     </option>
   </component>
@@ -359,8 +415,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="template/datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;adminpages/manages&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageStates.php&#10;template/head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;patient_data_query&#9;null&#9;null&#10;managePatientQuery_model&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;a&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;cus&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;foo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/footer.php&#10;que&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;query&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;ajax&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;header&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;custo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;Managepatientquery&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;cust&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;datab&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;hea&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;table&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/publicPages/patientsTable.php&#10;search&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/patientsSearchForm.php&#10;managequ&#9;null&#9;null&#10;data&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;aja&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;add&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/adminPages/Addpatient_model.php&#10;addpa&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/addPatient.php&#10;hom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/Home.php&#10;auth&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/userAuthentication/Userauthentication_model.php&#10;datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;topma&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/topMain.php&#10;home&#9;null&#9;null&#10;manageins&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/opuPages/Manageinspectors_model.php&#10;manageq&#9;null&#9;null&#10;managehos&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageHospital.php&#10;manageopu&#9;null&#9;null&#10;managepatientq&#9;null&#9;null&#10;database.php&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ehda" />
+    <property name="SearchEverywhereHistoryKey" value="template/home&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/homeChart.php&#10;template/datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;adminpages/manages&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageStates.php&#10;template/head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;patient_data_query&#9;null&#9;null&#10;managePatientQuery_model&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;a&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;cus&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;foo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/footer.php&#10;que&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;query&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;ajax&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;header&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;custo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;Managepatientquery&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;cust&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;datab&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;hea&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;table&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/publicPages/patientsTable.php&#10;search&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/patientsSearchForm.php&#10;managequ&#9;null&#9;null&#10;data&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;aja&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;add&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/adminPages/Addpatient_model.php&#10;addpa&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/addPatient.php&#10;hom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/Home.php&#10;auth&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/userAuthentication/Userauthentication_model.php&#10;datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;topma&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/topMain.php&#10;home&#9;null&#9;null&#10;manageins&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/opuPages/Manageinspectors_model.php&#10;manageq&#9;null&#9;null&#10;managehos&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageHospital.php&#10;manageopu&#9;null&#9;null&#10;managepatientq&#9;null&#9;null&#10;database.php&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/yasna-core" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -490,7 +546,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65080000" />
+    <option name="totallyTimeSpent" value="68311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,20 +603,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myApplication/views/opuPages/manageHospital.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="395" column="254" lean-forward="false" selection-start-line="395" selection-start-column="254" selection-end-line="395" selection-end-column="254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/views/opuPages/patientsSearchForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="87" column="37" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/inspectorPages/patientsSearchForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1662,18 +1704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homeChart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3354">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <marker date="1518864253743" expanded="true" signature="3301:3315" ph="..." />
-            <marker date="1518864253743" expanded="true" signature="3386:3416" ph="..." />
-            <marker date="1518864253743" expanded="true" signature="3470:3479" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/fontiran.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1740,14 +1770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/templates/topMain.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1760,18 +1782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="112" column="20" lean-forward="false" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/templates/dataComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="171" column="42" lean-forward="true" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+        <state relative-caret-position="416">
+          <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -1834,6 +1848,72 @@
             <marker date="1518875020698" expanded="false" signature="4887:4918" ph="..." />
             <marker date="1518875020698" expanded="false" signature="5982:6013" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/loginInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homeChart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+            <element signature="e#1384#2773#0#HTML" expanded="false" />
+            <element signature="e#2789#4591#0#HTML" expanded="false" />
+            <element signature="e#2822#4587#0#HTML" expanded="false" />
+            <element signature="e#2839#2877#0#HTML" expanded="false" />
+            <element signature="e#2894#2963#0#HTML" expanded="false" />
+            <element signature="e#2980#3119#0#HTML" expanded="false" />
+            <element signature="e#3136#3240#0#HTML" expanded="false" />
+            <element signature="e#3177#3230#0#HTML" expanded="false" />
+            <element signature="e#3259#3616#0#HTML" expanded="false" />
+            <element signature="e#3639#3752#0#HTML" expanded="false" />
+            <element signature="e#3661#3742#0#HTML" expanded="false" />
+            <element signature="e#3770#4581#0#HTML" expanded="false" />
+            <element signature="e#3771#3909#0#HTML" expanded="false" />
+            <element signature="e#3911#4048#0#HTML" expanded="false" />
+            <element signature="e#4050#4181#0#HTML" expanded="false" />
+            <element signature="e#4183#4314#0#HTML" expanded="false" />
+            <element signature="e#4316#4447#0#HTML" expanded="false" />
+            <element signature="e#4449#4580#0#HTML" expanded="false" />
+            <marker date="1518875414430" expanded="false" signature="3301:3315" ph="..." />
+            <marker date="1518875414430" expanded="false" signature="3386:3416" ph="..." />
+            <marker date="1518875414430" expanded="false" signature="3470:3479" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
