@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11577888-6399-433d-95a3-e5066a63fb06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/controllers/Home.php" afterPath="$PROJECT_DIR$/myApplication/controllers/Home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style-update.css" afterPath="$PROJECT_DIR$/assets/css/style-update.css" />
     </list>
     <ignored path="inspector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,129 +36,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.4753587">
       <split-first>
         <leaf>
-          <file leaf-file-name="dataComponent.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/dataComponent.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="416">
-                  <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-                  <folding>
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#608#613#0#PHP" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#1307#1312#0#PHP" expanded="false" />
-                    <element signature="e#1400#1689#0#PHP" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#2424#2429#0#PHP" expanded="false" />
-                    <element signature="e#2514#2798#0#PHP" expanded="false" />
-                    <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#3514#3519#0#PHP" expanded="false" />
-                    <element signature="e#3607#3896#0#PHP" expanded="false" />
-                    <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#4603#4608#0#PHP" expanded="false" />
-                    <element signature="e#4692#4973#0#PHP" expanded="false" />
-                    <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#5697#5702#0#PHP" expanded="false" />
-                    <element signature="e#5786#6068#0#PHP" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="e#7504#7509#0#PHP" expanded="false" />
-                    <element signature="e#7504#7509#0#PHP" expanded="false" />
-                    <element signature="e#7630#7635#0#PHP" expanded="false" />
-                    <element signature="e#7630#7635#0#PHP" expanded="false" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#button#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                    <marker date="1518875020698" expanded="false" signature="1603:1634" ph="..." />
-                    <marker date="1518875020698" expanded="false" signature="2712:2743" ph="..." />
-                    <marker date="1518875020698" expanded="false" signature="3810:3841" ph="..." />
-                    <marker date="1518875020698" expanded="false" signature="4887:4918" ph="..." />
-                    <marker date="1518875020698" expanded="false" signature="5982:6013" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                <state relative-caret-position="416">
+                  <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="controlPanel.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                <state relative-caret-position="104">
+                  <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="homeChart.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homeChart.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="134" column="41" lean-forward="false" selection-start-line="134" selection-start-column="41" selection-end-line="134" selection-end-column="41" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#script#0;n#!!top" expanded="false" />
-                    <element signature="e#1384#2773#0#HTML" expanded="false" />
-                    <element signature="e#2789#4591#0#HTML" expanded="false" />
-                    <element signature="e#2822#4587#0#HTML" expanded="false" />
-                    <element signature="e#2839#2877#0#HTML" expanded="false" />
-                    <element signature="e#2894#2963#0#HTML" expanded="false" />
-                    <element signature="e#2980#3119#0#HTML" expanded="false" />
-                    <element signature="e#3136#3240#0#HTML" expanded="false" />
-                    <element signature="e#3177#3230#0#HTML" expanded="false" />
-                    <element signature="e#3259#3616#0#HTML" expanded="false" />
-                    <element signature="e#3639#3752#0#HTML" expanded="false" />
-                    <element signature="e#3661#3742#0#HTML" expanded="false" />
-                    <element signature="e#3770#4581#0#HTML" expanded="false" />
-                    <element signature="e#3771#3909#0#HTML" expanded="false" />
-                    <element signature="e#3911#4048#0#HTML" expanded="false" />
-                    <element signature="e#4050#4181#0#HTML" expanded="false" />
-                    <element signature="e#4183#4314#0#HTML" expanded="false" />
-                    <element signature="e#4316#4447#0#HTML" expanded="false" />
-                    <element signature="e#4449#4580#0#HTML" expanded="false" />
-                    <marker date="1518875414430" expanded="false" signature="3301:3315" ph="..." />
-                    <marker date="1518875414430" expanded="false" signature="3386:3416" ph="..." />
-                    <marker date="1518875414430" expanded="false" signature="3470:3479" ph="..." />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -168,11 +60,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style-update.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style-update.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+                <state relative-caret-position="740">
+                  <caret line="136" column="25" lean-forward="false" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="52">
+                  <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -211,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myApplication/models/adminPages/Manageopu_model.php" />
         <option value="$PROJECT_DIR$/myApplication/models/adminPages/Managehospital_model.php" />
         <option value="$PROJECT_DIR$/myApplication/views/adminPages/manageHospital.php" />
         <option value="$PROJECT_DIR$/myApplication/views/opuPages/manageInspectors.php" />
@@ -257,11 +158,12 @@
         <option value="$PROJECT_DIR$/myApplication/controllers/ajax/Ajax_conf.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/header.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/topMain.php" />
-        <option value="$PROJECT_DIR$/assets/css/style-update.css" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/dataComponent.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" />
         <option value="$PROJECT_DIR$/myApplication/controllers/Home.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
+        <option value="$PROJECT_DIR$/assets/css/style-update.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -546,7 +448,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68311000" />
+    <option name="totallyTimeSpent" value="68523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -603,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myApplication/views/inspectorPages/patientsSearchForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="82" column="69" lean-forward="false" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/publicPages/statistics_and_information.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -649,13 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1851,26 +1739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/templates/loginInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1909,10 +1781,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+        <state relative-caret-position="740">
+          <caret line="136" column="25" lean-forward="false" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>

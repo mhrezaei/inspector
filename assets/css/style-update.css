@@ -123,3 +123,16 @@
     display: inline-block;
     margin: 0 7px;
 }
+
+/*
+*-------------------------------------------------------
+* Footer
+*-------------------------------------------------------
+*/
+
+#footerContent{
+    font-family: IRANSans;
+}
+.footerContentTitle{
+    font-family: IRANSans;
+}
