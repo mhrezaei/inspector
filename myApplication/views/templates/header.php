@@ -42,7 +42,7 @@
             <nav>
                 <ul class="menu">
                     <li class="home current"><a href="<?php echo base_url() ?>"><span>صفحه اصلی</span></a></li>
-                    <li><a href="#"><span>مدیریت</span></a>
+                    <li><span>مدیریت</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>admin/manage_opu">مراکز فراهم آوری</a></li>
                             <li><a href="<?php echo base_url() ?>admin/manage_hospital">بیمارستان ها</a></li>
@@ -51,7 +51,7 @@
                             <li><a href="<?php echo base_url() ?>admin/manage_pages">صفحات اصلی</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url() ?>admin/manage_patient"><span>لیست بیماران</span></a>
+                    <li><span>لیست بیماران</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>admin/add_patient">افزودن بیمار جدید</a></li>
                             <li><a href="<?php echo base_url() ?>admin/manage_patient">لیست همه بیماران</a></li>
@@ -63,19 +63,19 @@
                             <li><a href="<?php echo base_url() ?>admin/manage_patient_deleted">لیست بیماران حذف شده</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url() ?>admin/manage_patient_archive"><span>لیست بیماران آرشیو شده</span></a>
+                    <li><span>لیست بیماران آرشیو شده</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>admin/manage_patient_archive?doArchive=TRUE">فرایند آرشیو کردن بیماران</a></li>
                             <li><a href="<?php echo base_url() ?>admin/manage_patient_archive">لیست همه بیماران آرشیو شده</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span>آمار و اطلاعات</span></a>
+                    <li><span>آمار و اطلاعات</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>public/statistics_and_information"><span>آمار و اطلاعات عمومی</span></a></li>
                             <li><a href="<?php echo base_url() ?>admin/statistics_and_information"><span>آمار و اطلاعات عملیاتی</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><span>تنظیمات</span></a>
+                    <li><span>تنظیمات</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url(); ?>public/pages/index/about">درباره سامانه</a></li>
                             <li><a href="<?php echo base_url(); ?>public/pages/index/helpOpu">راهنمای سامانه مسئولین OPU</a></li>
@@ -106,7 +106,7 @@
                 <ul class="menu">
                     <li class="home current"><a href="<?php echo base_url() ?>"><span>صفحه اصلی</span></a></li>
                     <li><a href="<?php echo base_url() ?>inspector/add_patient"><span>افزودن بیمار جدید</span></a></li>
-                    <li><a href="<?php echo base_url() ?>inspector/manage_patient"><span>لیست بیماران</span></a>
+                    <li><span>لیست بیماران</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>inspector/manage_patient">لیست همه بیماران</a></li>
                             <li><a href="<?php echo base_url() ?>inspector/manage_patient_brain_death">لیست بیماران GCS3 مرگ مغزی شده</a></li>
@@ -118,7 +118,7 @@
                     </li>
                     <li><a href="<?php echo base_url() ?>inspector/manage_patient_archive"><span>لیست بیماران آرشیو شده</span></a>
                     <li><a href="<?php echo base_url() ?>public/statistics_and_information"><span>آمار و اطلاعات</span></a></li>
-                    <li><a href="#"><span>تنظیمات</span></a>
+                    <li><span>تنظیمات</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url(); ?>public/pages/index/about">درباره سامانه</a></li>
                             <li><a href="<?php echo base_url(); ?>public/pages/index/helpInspector">راهنمای استفاده از سامانه</a></li>
@@ -148,13 +148,13 @@
             <nav    >
                 <ul class="menu">
                     <li class="home current"><a href="<?php echo base_url() ?>"><span>صفحه اصلی</span></a></li>
-                    <li><a href="<?php echo base_url() ?>opu/manage_inspectors"><span>مدیریت </span></a>
+                    <li><span>مدیریت </span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>opu/manage_hospital"><span>مدیریت بیمارستان ها</span></a></li>
                             <li><a href="<?php echo base_url() ?>opu/manage_inspectors"><span>مدیریت بازرسین</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url() ?>opu/manage_patient"><span>لیست بیماران</span></a>
+                    <li><span>لیست بیماران</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url() ?>opu/add_patient">افزودن بیمار جدید</a></li>
                             <li><a href="<?php echo base_url() ?>opu/manage_patient">لیست همه بیماران</a></li>
@@ -167,7 +167,7 @@
                     </li>
                     <li><a href="<?php echo base_url() ?>opu/manage_patient_archive"><span>لیست بیماران آرشیو شده</span></a></li>
                     <li><a href="<?php echo base_url() ?>public/statistics_and_information"><span>آمار و اطلاعات</span></a></li>
-                    <li><a href="#"><span>تنظیمات</span></a>
+                    <li><span>تنظیمات</span>
                         <ul class="sub-menu">
                             <li><a href="<?php echo base_url(); ?>public/pages/index/about">درباره سامانه</a></li>
                             <li><a href="<?php echo base_url(); ?>public/pages/index/helpOpu">راهنمای استفاده از سامانه</a></li>

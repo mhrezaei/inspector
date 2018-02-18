@@ -10,6 +10,32 @@
 .text-gray_dark{
     color: #333;
 }
+/*
+*-------------------------------------------------------
+* Navbar
+*-------------------------------------------------------
+*/
+
+.menu li span{
+    font-family:IRANSans;
+    color: #FFF;
+    display: block;
+    font-size: 15px;
+    height: 100%;
+    line-height: 50px;
+    margin: 0 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+li.home span{
+    display: none;
+}
+
 
 /*
 *-------------------------------------------------------
