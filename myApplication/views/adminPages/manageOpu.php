@@ -13,22 +13,33 @@
         <div class="clearB"></div>
       </div>
       <div class="panel-body panelBodyText" id="loginInfoBody" style="width: 100%; text-align: right; margin: 0 auto;">
-            <div style="width: 100%; height: auto; direction: rtl; margin: 0 auto;">
+            <div style="width: 100%; height: auto; direction: rtl; margin: 0 auto; padding: 20px; overflow-x: scroll;">
                 
-                <div style="height: auto; margin: 0px auto; text-align: right; width: 100%;">
-                    <form style="width: 860px" class="form-inline" role="form" method="post">
-                          <div class="form-group" style="float: right;">
-                            <label for="inputOpuFilter" class="control-label" style="float: right; font-family: 'BYekan'; font-weight: normal; width: 90px; font-size: 14px; line-height: 28px">فیلترکردن نتایج</label>
-                            <div style="float: right; width: 450px">
-                              <input type="text" class="form-control" name="inputOpuFilter" id="inputOpuFilter" style="font-family: 'BYekan'; width: 450px" value="<?php if($filter){echo $filter;} ?>" placeholder="نام واحد، نام مسئول واحد، شماره موبایل، شماره تماس، نام کاربری ...">
+                <div style="height: auto; margin: 20px auto; text-align: right; width: 100%;">
+
+                    <form class="form-inline" role="form" method="post">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row">
+                                        <div class="form-group col-sm-8">
+                                            <label for="inputOpuFilter" class="control-label col-sm-2" style=" line-height: 28px">فیلترکردن نتایج</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" name="inputOpuFilter" id="inputOpuFilter" style="width: 100%;"  value="<?php if($filter){echo $filter;} ?>" placeholder="نام واحد، نام مسئول واحد، شماره موبایل، شماره تماس، نام کاربری ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <button type="submit" class="btn btn-primary btn-md" style="margin: 0px 15px 20px auto;">جستجو</button>
+
+                                            <button type="button" class="btn btn-warning btn-md" style=" margin: 0px 5px 20px auto;" onclick="window.location='<?php echo base_url() ?>admin/manage_opu';">حذف فیلتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-success btn-md" style="margin: 0px 5px 20px auto; float: left;" onclick="insertState('cbState', false);" data-toggle="modal" data-target="#addOpuModal">افزودن واحد فراهم آوری جدید</button>
+                                </div>
                             </div>
-                          </div>
-                      <button type="submit" class="btn btn-primary btn-md" style="margin: 0px 15px 20px auto; float: right;">جستجو</button>
-                      
-                      <button type="button" class="btn btn-warning btn-md" style="float: right; margin: 0px 5px 20px auto;" onclick="window.location='<?php echo base_url() ?>admin/manage_opu';">حذف فیلتر</button>
-                      
-                      <button type="button" class="btn btn-success btn-md" style="margin: 0px 5px 20px auto; float: right;" onclick="insertState('cbState', false);" data-toggle="modal" data-target="#addOpuModal">افزودن واحد فراهم آوری جدید</button>
-                      
+                        </div>
                     </form>
                 </div>
                 <div class="clearB"></div>
@@ -80,18 +91,18 @@
                                 if($opu[$i]['status'] == 1)
                                 {
                             ?>
-                            <div class="glyphicon glyphicon-off" style="color: green; cursor: pointer;" rel="tooltip" data-placement="top" title="غیرفعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'inactive');"></div>
+                            <div class="glyphicon glyphicon-off" style="margin: 0 3px; color: #27c24b; cursor: pointer;" rel="tooltip" data-placement="top" title="غیرفعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'inactive');"></div>
                             <?php
                                 }
                                 else
                                 {
                             ?>
-                            <div class="glyphicon glyphicon-off" style="color: gray; cursor: pointer;" rel="tooltip" data-placement="top" title="فعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'active');"></div>
+                            <div class="glyphicon glyphicon-off" style="margin: 0 3px; color: gray; cursor: pointer;" rel="tooltip" data-placement="top" title="فعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'active');"></div>
                             <?php
                                 }
                             ?>
-                            <div class="glyphicon glyphicon-pencil" style="color: black; cursor: pointer;" rel="tooltip" data-placement="top" title="ویرایش واحد" data-toggle="modal" data-target="#editOpuModal" onclick="editOPU('<?php echo $opu[$i]['id']; ?>');"></div>
-                            <div class="glyphicon glyphicon-remove" style="color: red; cursor: pointer;" rel="tooltip" data-placement="top" title="حذف واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'delete');"></div>
+                            <div class="glyphicon glyphicon-pencil" style="margin: 0 3px; color: black; cursor: pointer;" rel="tooltip" data-placement="top" title="ویرایش واحد" data-toggle="modal" data-target="#editOpuModal" onclick="editOPU('<?php echo $opu[$i]['id']; ?>');"></div>
+                            <div class="glyphicon glyphicon-remove" style="margin: 0 3px; color: red; cursor: pointer;" rel="tooltip" data-placement="top" title="حذف واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'delete');"></div>
                           </td>
                         </tr>
                     <?php

@@ -162,3 +162,19 @@ li.home span{
 .footerContentTitle{
     font-family: IRANSans;
 }
+
+/*
+*-------------------------------------------------------
+* Panels
+*-------------------------------------------------------
+*/
+
+.panel .panel-heading .panelTitleText{
+    font-family:IRANSans;
+}
+
+.panelInfoBTN,
+.panelPrimaryBTN
+{
+    color: inherit;
+}
