@@ -15,19 +15,19 @@
     <div class="panel-body panelBodyText" id="loginInfoBody" style="width: 100%; text-align: right; margin: 0 auto;">
         <div style="width: 100%; height: auto; direction: rtl; margin: 0 auto;">
 
-            <div style="height: auto; margin: 0px auto; text-align: right; width: 100%;">
+            <div class="clearfix" style="height: auto; margin: 20px auto; text-align: right; width: 100%;">
                 <form style="width: 98%" class="form-inline" role="form" method="get">
                     <div class="form-group" style="float: right;">
-                        <label for="inputHospitalFilter" class="control-label" style="float: right; font-family: 'BYekan'; font-weight: normal; width:50px; font-size: 14px; line-height: 28px;">جستجو: </label>
+                        <label for="inputHospitalFilter" class="control-label" style="float: right;   font-weight: normal; width:50px; font-size: 14px; line-height: 28px;">جستجو: </label>
                         <div style="float: right; width: 250px;">
-                            <input type="text" class="form-control" name="inputHospitalFilter" id="inputHospitalFilter" style="font-family: 'BYekan'; width: 250px;" value="<?php echo $this->input->get('inputHospitalFilter'); ?>" placeholder="نام بیمارستان">
+                            <input type="text" class="form-control" name="inputHospitalFilter" id="inputHospitalFilter" style=" width: 250px;" value="<?php echo $this->input->get('inputHospitalFilter'); ?>" placeholder="نام بیمارستان">
                             <input type="hidden" class="form-control" name="searchTools" value="true">
                         </div>
                     </div>
                     <div class="form-group" style="float: right;">
-                        <label for="cbOpu" class="control-label" style="float: right; font-family: 'BYekan'; font-weight: normal; width: 100px; font-size: 14px; line-height: 28px; margin-right: 15px;">واحد فراهم آوری: </label>
+                        <label for="cbOpu" class="control-label" style="float: right; font-weight: normal; width: 100px; font-size: 14px; line-height: 28px; margin-right: 15px;">واحد فراهم آوری: </label>
                         <div style="float: right; width: 275px;">
-                            <select class="form-control" id="cbOpu" name="cbOpu" style="font-family: 'BYekan'; direction: rtl; width: 275px;">
+                            <select class="form-control" id="cbOpu" name="cbOpu" style="  direction: rtl; width: 275px;">
                                 <option value="0">انتخاب کنید...</option>
                                 <?php
                                     if(is_array($opu) && count($opu) > 0)
@@ -51,9 +51,9 @@
                     </div>
                     <div class="clearB"></div>
                     <div class="form-group" style="float: right; margin-top: 15px;">
-                        <label for="cbState" class="control-label" style="float: right; font-family: 'BYekan'; font-weight: normal; width: 50px; font-size: 14px; line-height: 28px;">استان: </label>
+                        <label for="cbState" class="control-label" style="float: right;   font-weight: normal; width: 50px; font-size: 14px; line-height: 28px;">استان: </label>
                         <div style="float: right; width: 150px;">
-                            <select class="form-control" id="cbState" name="cbState" style="font-family: 'BYekan'; direction: rtl; width: 150px;" onchange="insertcity('cbCity', 'cbState', false);">
+                            <select class="form-control" id="cbState" name="cbState" style="  direction: rtl; width: 150px;" onchange="insertcity('cbCity', 'cbState', false);">
                                 <option value="0">انتخاب کنید...</option>
                             </select>
                             <script>
@@ -83,9 +83,9 @@
                         </div>
                     </div>
                     <div class="form-group" style="float: right; margin-top: 15px;">
-                        <label for="cbCity" class="control-label" style="float: right; font-family: 'BYekan'; font-weight: normal; width: 40px; font-size: 14px; line-height: 28px; margin-right: 15px;">شهر: </label>
+                        <label for="cbCity" class="control-label" style="float: right;   font-weight: normal; width: 40px; font-size: 14px; line-height: 28px; margin-right: 15px;">شهر: </label>
                         <div style="float: right; width: 150px;">
-                            <select class="form-control" id="cbCity" name="cbCity" style="font-family: 'BYekan'; direction: rtl; width: 150px;" disabled="disabled">
+                            <select class="form-control" id="cbCity" name="cbCity" style="  direction: rtl; width: 150px;" disabled="disabled">
                                 <option value="0">انتخاب کنید...</option>
                             </select>
                         </div>
@@ -98,7 +98,6 @@
 
                 </form>
             </div>
-            <div class="clearB"></div>
 
             <?php
                 if(is_array($hr['hospitals']) && count($hr['hospitals']) > 0)
@@ -216,50 +215,50 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" style="float: left;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="addHospitalModalabel" style="font-family: 'BYekan';">افزودن بیمارستان جدید</h4>
+                <h4 class="modal-title" id="addHospitalModalabel" style=" ">افزودن بیمارستان جدید</h4>
             </div>
             <div class="modal-body" id="addHospitalModalBodyData">
 
                 <div id="addHospitalForm">
                     <form class="form-horizontal" role="form">
                         <div class="form-group">
-                            <label for="inputHopitalName" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">نام بیمارستان:</label>
+                            <label for="inputHopitalName" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">نام بیمارستان:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputHopitalName" style="font-family: 'BYekan';" value="" placeholder="نام بیمارستان">
+                                <input type="text" class="form-control" id="inputHopitalName" style=" " value="" placeholder="نام بیمارستان">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddOpu" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">مرکز فراهم آوری:</label>
+                            <label for="cbAddOpu" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">مرکز فراهم آوری:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddOpu" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddOpu" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="cbAddState" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">استان:</label>
+                            <label for="cbAddState" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">استان:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddState" style="font-family: 'BYekan'; direction: rtl;" onchange="insertcity('cbAddCity', 'cbAddState', false);">
+                                <select class="form-control" id="cbAddState" style="  direction: rtl;" onchange="insertcity('cbAddCity', 'cbAddState', false);">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddCity" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">شهر:</label>
+                            <label for="cbAddCity" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">شهر:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddCity" style="font-family: 'BYekan'; direction: rtl;" disabled="disabled">
+                                <select class="form-control" id="cbAddCity" style="  direction: rtl;" disabled="disabled">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddType" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">نوع:</label>
+                            <label for="cbAddType" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">نوع:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddType" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddType" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دولتی</option>
                                     <option value="2">خصوصی</option>
@@ -269,9 +268,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddIcu" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">ICU:</label>
+                            <label for="cbAddIcu" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">ICU:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddIcu" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddIcu" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دارد</option>
                                     <option value="2">ندارد</option>
@@ -280,23 +279,23 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuBed" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد تخت ICU:</label>
+                            <label for="inputIcuBed" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد تخت ICU:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuBed" style="font-family: 'BYekan';" value="" placeholder="تعداد تخت ICU">
+                                <input type="text" class="form-control" id="inputIcuBed" style=" " value="" placeholder="تعداد تخت ICU">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuBedBusy" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">درصد اشغال تخت:</label>
+                            <label for="inputIcuBedBusy" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">درصد اشغال تخت:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuBedBusy" style="font-family: 'BYekan';" value="" placeholder="درصد اشغال تخت ICU (عدد وارد نمائید)">
+                                <input type="text" class="form-control" id="inputIcuBedBusy" style=" " value="" placeholder="درصد اشغال تخت ICU (عدد وارد نمائید)">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddNeuro" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">جراجی اعصاب:</label>
+                            <label for="cbAddNeuro" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">جراجی اعصاب:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddNeuro" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddNeuro" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دارد</option>
                                     <option value="2">ندارد</option>
@@ -305,17 +304,17 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="inputDeathPerYear" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد مرگ سالیه</label>
+                            <label for="inputDeathPerYear" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد مرگ سالیه</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputDeathPerYear" style="font-family: 'BYekan';" value="" placeholder="تعداد مرگ سالیانه بیمارستان">
+                                <input type="text" class="form-control" id="inputDeathPerYear" style=" " value="" placeholder="تعداد مرگ سالیانه بیمارستان">
                                 <input type="hidden" id="inputYear" value="<?php echo pdate('Y'); ?>">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuDeathPerYear" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد مرگ سالیانه ICU:</label>
+                            <label for="inputIcuDeathPerYear" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد مرگ سالیانه ICU:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuDeathPerYear" style="font-family: 'BYekan';" value="" placeholder="تعداد مرگ سالیانه ICU">
+                                <input type="text" class="form-control" id="inputIcuDeathPerYear" style=" " value="" placeholder="تعداد مرگ سالیانه ICU">
                             </div>
                         </div>
                     </form>
@@ -341,8 +340,8 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" style="float: left; font-family: 'BYekan';" id="saveBTN">افزودن بیمارستان</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal" style="float: left; font-family: 'BYekan';">انصراف</button>
+                <button type="button" class="btn btn-success" style="float: left;  " id="saveBTN">افزودن بیمارستان</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="float: left;  ">انصراف</button>
             </div>
         </div>
     </div>
@@ -354,50 +353,50 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" style="float: left;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="editHospitalModalabel" style="font-family: 'BYekan';">ویرایش بیمارستان ها</h4>
+                <h4 class="modal-title" id="editHospitalModalabel" style=" ">ویرایش بیمارستان ها</h4>
             </div>
             <div class="modal-body" id="editHospitalModalBodyData">
 
                 <div id="editHospitalForm">
                     <form class="form-horizontal" role="form" name="editHospitalForm">
                         <div class="form-group">
-                            <label for="inputHopitalNameEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">نام بیمارستان:</label>
+                            <label for="inputHopitalNameEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">نام بیمارستان:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputHopitalNameEdit" style="font-family: 'BYekan';" value="" placeholder="نام بیمارستان">
+                                <input type="text" class="form-control" id="inputHopitalNameEdit" style=" " value="" placeholder="نام بیمارستان">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddOpuEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">مرکز فراهم آوری:</label>
+                            <label for="cbAddOpuEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">مرکز فراهم آوری:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddOpuEdit" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddOpuEdit" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="cbAddStateEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">استان:</label>
+                            <label for="cbAddStateEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">استان:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddStateEdit" style="font-family: 'BYekan'; direction: rtl;" onchange="insertcity('cbAddCityEdit', 'cbAddStateEdit', false);">
+                                <select class="form-control" id="cbAddStateEdit" style="  direction: rtl;" onchange="insertcity('cbAddCityEdit', 'cbAddStateEdit', false);">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddCityEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">شهر:</label>
+                            <label for="cbAddCityEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">شهر:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddCityEdit" style="font-family: 'BYekan'; direction: rtl;" disabled="disabled">
+                                <select class="form-control" id="cbAddCityEdit" style="  direction: rtl;" disabled="disabled">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddTypeEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">نوع:</label>
+                            <label for="cbAddTypeEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">نوع:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddTypeEdit" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddTypeEdit" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دولتی</option>
                                     <option value="2">خصوصی</option>
@@ -407,9 +406,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddIcuEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">ICU:</label>
+                            <label for="cbAddIcuEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">ICU:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddIcuEdit" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddIcuEdit" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دارد</option>
                                     <option value="2">ندارد</option>
@@ -418,23 +417,23 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuBedEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد تخت ICU:</label>
+                            <label for="inputIcuBedEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد تخت ICU:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuBedEdit" style="font-family: 'BYekan';" value="" placeholder="تعداد تخت ICU">
+                                <input type="text" class="form-control" id="inputIcuBedEdit" style=" " value="" placeholder="تعداد تخت ICU">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuBedBusyEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">درصد اشغال تخت:</label>
+                            <label for="inputIcuBedBusyEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">درصد اشغال تخت:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuBedBusyEdit" style="font-family: 'BYekan';" value="" placeholder="درصد اشغال تخت ICU (عدد وارد نمائید)">
+                                <input type="text" class="form-control" id="inputIcuBedBusyEdit" style=" " value="" placeholder="درصد اشغال تخت ICU (عدد وارد نمائید)">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="cbAddNeuroEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">جراجی اعصاب:</label>
+                            <label for="cbAddNeuroEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">جراجی اعصاب:</label>
                             <div class="col-sm-9">
-                                <select class="form-control" id="cbAddNeuroEdit" style="font-family: 'BYekan'; direction: rtl;">
+                                <select class="form-control" id="cbAddNeuroEdit" style="  direction: rtl;">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">دارد</option>
                                     <option value="2">ندارد</option>
@@ -443,16 +442,16 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="inputDeathPerYearEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد مرگ سالیه</label>
+                            <label for="inputDeathPerYearEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد مرگ سالیه</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputDeathPerYearEdit" style="font-family: 'BYekan';" value="" placeholder="تعداد مرگ سالیانه بیمارستان">
+                                <input type="text" class="form-control" id="inputDeathPerYearEdit" style=" " value="" placeholder="تعداد مرگ سالیانه بیمارستان">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="inputIcuDeathPerYearEdit" class="col-sm-3 control-label" style="float: right; font-family: 'BYekan'; font-weight: normal;">تعداد مرگ سالیانه ICU:</label>
+                            <label for="inputIcuDeathPerYearEdit" class="col-sm-3 control-label" style="float: right;   font-weight: normal;">تعداد مرگ سالیانه ICU:</label>
                             <div class="col-sm-9">
-                                <input type="text" class="form-control" id="inputIcuDeathPerYearEdit" style="font-family: 'BYekan';" value="" placeholder="تعداد مرگ سالیانه ICU">
+                                <input type="text" class="form-control" id="inputIcuDeathPerYearEdit" style=" " value="" placeholder="تعداد مرگ سالیانه ICU">
                             </div>
                         </div>
                     </form>
@@ -482,8 +481,8 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" style="float: left; font-family: 'BYekan';" id="saveBTNEdit">ویرایش بیمارستان</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal" style="float: left; font-family: 'BYekan';">انصراف</button>
+                <button type="button" class="btn btn-success" style="float: left;  " id="saveBTNEdit">ویرایش بیمارستان</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="float: left;  ">انصراف</button>
             </div>
         </div>
     </div>
@@ -513,8 +512,8 @@
         
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger btn-sm" style="float: left; font-family: 'BYekan'; font-weight: normal;" id="deleteHospitalModalBTN">حذف کردن بیمارستان</button>
-        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal" style="float: left; font-family: 'BYekan'; font-weight: normal;">انصراف</button>
+        <button type="button" class="btn btn-danger btn-sm" style="float: left;   font-weight: normal;" id="deleteHospitalModalBTN">حذف کردن بیمارستان</button>
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal" style="float: left;   font-weight: normal;">انصراف</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

@@ -10,6 +10,11 @@
 .text-gray_dark{
     color: #333;
 }
+
+.reverse-dir{
+    display: flex;
+    flex-direction: row-reverse;
+}
 /*
 *-------------------------------------------------------
 * Navbar
@@ -178,3 +183,32 @@ li.home span{
 {
     color: inherit;
 }
+
+/*
+*-------------------------------------------------------
+* Tables
+*-------------------------------------------------------
+*/
+
+table.table tr td .glyphicon{
+    margin: 0 3px;
+}
+
+#addPatientFrom label.control-label{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#addPatientFrom .form-group{
+    margin: 5px 0;
+}
+
+/*
+*-------------------------------------------------------
+* Modal
+*-------------------------------------------------------
+*/
+.modal.in .modal-dialog{
+    z-index: 1042;
+}
+

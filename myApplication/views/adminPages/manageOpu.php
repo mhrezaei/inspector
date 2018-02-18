@@ -91,18 +91,18 @@
                                 if($opu[$i]['status'] == 1)
                                 {
                             ?>
-                            <div class="glyphicon glyphicon-off" style="margin: 0 3px; color: #27c24b; cursor: pointer;" rel="tooltip" data-placement="top" title="غیرفعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'inactive');"></div>
+                            <div class="glyphicon glyphicon-off" style=" color: #27c24b; cursor: pointer;" rel="tooltip" data-placement="top" title="غیرفعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'inactive');"></div>
                             <?php
                                 }
                                 else
                                 {
                             ?>
-                            <div class="glyphicon glyphicon-off" style="margin: 0 3px; color: gray; cursor: pointer;" rel="tooltip" data-placement="top" title="فعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'active');"></div>
+                            <div class="glyphicon glyphicon-off" style=" color: gray; cursor: pointer;" rel="tooltip" data-placement="top" title="فعال کردن واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'active');"></div>
                             <?php
                                 }
                             ?>
-                            <div class="glyphicon glyphicon-pencil" style="margin: 0 3px; color: black; cursor: pointer;" rel="tooltip" data-placement="top" title="ویرایش واحد" data-toggle="modal" data-target="#editOpuModal" onclick="editOPU('<?php echo $opu[$i]['id']; ?>');"></div>
-                            <div class="glyphicon glyphicon-remove" style="margin: 0 3px; color: red; cursor: pointer;" rel="tooltip" data-placement="top" title="حذف واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'delete');"></div>
+                            <div class="glyphicon glyphicon-pencil" style=" color: black; cursor: pointer;" rel="tooltip" data-placement="top" title="ویرایش واحد" data-toggle="modal" data-target="#editOpuModal" onclick="editOPU('<?php echo $opu[$i]['id']; ?>');"></div>
+                            <div class="glyphicon glyphicon-remove" style=" color: red; cursor: pointer;" rel="tooltip" data-placement="top" title="حذف واحد" data-toggle="modal" data-target=".bs-example-modal-sm" onclick="inactiveOpu('<?php echo $opu[$i]['id']; ?>', 'delete');"></div>
                           </td>
                         </tr>
                     <?php
