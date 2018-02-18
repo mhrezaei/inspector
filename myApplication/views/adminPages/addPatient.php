@@ -278,33 +278,6 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group" >
-                                    <label for="cbCornea" class="control-label col-sm-3" >Cornea (قرنیه):</label>
-                                    <div class="col-sm-9">
-                                        <select class="form-control" id="cbCornea" name="cbCornea" style="  direction: rtl;">
-                                            <option value="U">نا معلوم (U)</option>
-                                            <option value="P">دارد (P)</option>
-                                            <option value="N">ندارد (N)</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="from-group">
-                                    <label for="cbPupil" class="control-label col-sm-3" >Pupil (مردمک):</label>
-                                    <div class="col-sm-9">
-                                        <select class="form-control" id="cbPupil" name="cbPupil" style="  direction: rtl;">
-                                            <option value="U">نا معلوم (U)</option>
-                                            <option value="P">دارد (P)</option>
-                                            <option value="N">ندارد (N)</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group" >
                                     <label for="cbFaceMove" class="control-label col-sm-3" >Face Movement (حرکات صورت):</label>
                                     <div class="col-sm-9">
                                         <select class="form-control" id="cbFaceMove" name="cbFaceMove" style="  direction: rtl;">
@@ -394,7 +367,7 @@
                             <!-- The patient's condition start -->
                             <div class="formCat">وضعیت پایداری بیمار</div>
                             <div class="clearB"></div>
-                            
+
                             <div style="margin-left: 0px; margin-right: 0px; direction: ltr;" class="form-group">
                                 <label style="float: left;    font-weight: normal; text-align: left; width: 50px;" class="control-label" for="inputT">T:</label>
                                 <div style="float: left; width: 180px;">
