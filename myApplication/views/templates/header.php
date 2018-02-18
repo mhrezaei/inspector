@@ -10,7 +10,7 @@
 <!--    <link href="--><?php //echo asset_url(); ?><!--css/bootstrap-theme.min.css" rel="stylesheet">-->
     <link href="<?php echo asset_url(); ?>css/bootstrap-rtl.css" rel="stylesheet">
     <link href="<?php echo asset_url(); ?>css/style.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo asset_url(); ?>css/fontiran.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo asset_url(); ?>fonts/iransans-fa-num/css/fontiran.css" rel="stylesheet" type="text/css">
     <link href="<?php echo asset_url(); ?>css/style-update.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
