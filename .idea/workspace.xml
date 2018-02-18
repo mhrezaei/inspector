@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11577888-6399-433d-95a3-e5066a63fb06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/chartjs/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApplication/views/templates/homeBarChart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myApplication/views/templates/homePieChart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/header.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myApplication/views/templates/homeChart.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/_homeChart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/controllers/Home.php" afterPath="$PROJECT_DIR$/myApplication/controllers/Home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApplication/views/templates/homePieChart.php" afterPath="$PROJECT_DIR$/myApplication/views/templates/homePieChart.php" />
     </list>
     <ignored path="inspector.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +39,8 @@
           <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="416">
-                  <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+                <state relative-caret-position="390">
+                  <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -54,8 +49,8 @@
           <file leaf-file-name="controlPanel.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+                <state relative-caret-position="234">
+                  <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -64,30 +59,9 @@
           <file leaf-file-name="homePieChart.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homePieChart.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="572">
-                  <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="homeBarChart.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homeBarChart.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="41" />
-                  <folding>
-                    <marker date="1518945702415" expanded="false" signature="961:976" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="1036:1049" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="1114:1127" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="1193:1207" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="4118:4132" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="4203:4233" ph="..." />
-                    <marker date="1518945702415" expanded="false" signature="4287:4296" ph="..." />
-                  </folding>
+                <state relative-caret-position="312">
+                  <caret line="22" column="148" lean-forward="true" selection-start-line="22" selection-start-column="148" selection-end-line="22" selection-end-column="148" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,8 +73,8 @@
           <file leaf-file-name="style-update.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="157" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+                <state relative-caret-position="404">
+                  <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -181,7 +155,6 @@
         <option value="$PROJECT_DIR$/myApplication/controllers/ajax/Ajax_conf.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/topMain.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/dataComponent.php" />
-        <option value="$PROJECT_DIR$/myApplication/controllers/Home.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/css/style-update.css" />
         <option value="$PROJECT_DIR$/myApplication/views/adminPages/manageOpu.php" />
@@ -189,6 +162,7 @@
         <option value="$PROJECT_DIR$/myApplication/views/templates/header.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/controlPanel.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/homeBarChart.php" />
+        <option value="$PROJECT_DIR$/myApplication/controllers/Home.php" />
         <option value="$PROJECT_DIR$/myApplication/views/templates/homePieChart.php" />
       </list>
     </option>
@@ -325,7 +299,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="template/contr&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/controlPanel.php&#10;template/he&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;adminpage/manage&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageOpu.php&#10;template/home&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/homeChart.php&#10;template/datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;adminpages/manages&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageStates.php&#10;template/head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;patient_data_query&#9;null&#9;null&#10;managePatientQuery_model&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;a&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;cus&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;foo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/footer.php&#10;que&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;query&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;ajax&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;header&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;custo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;Managepatientquery&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;cust&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;datab&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;hea&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;table&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/publicPages/patientsTable.php&#10;search&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/patientsSearchForm.php&#10;managequ&#9;null&#9;null&#10;data&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;aja&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;add&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/adminPages/Addpatient_model.php&#10;addpa&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/addPatient.php&#10;hom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/Home.php&#10;auth&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/userAuthentication/Userauthentication_model.php&#10;datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;topma&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/topMain.php&#10;home&#9;null&#9;null&#10;manageins&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/opuPages/Manageinspectors_model.php&#10;manageq&#9;null&#9;null&#10;managehos&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageHospital.php&#10;manageopu&#9;null&#9;null&#10;managepatientq&#9;null&#9;null&#10;database.php&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="homePieChart&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/homePieChart.php&#10;template/contr&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/controlPanel.php&#10;template/he&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;adminpage/manage&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageOpu.php&#10;template/home&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/homeChart.php&#10;template/datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;adminpages/manages&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageStates.php&#10;template/head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;patient_data_query&#9;null&#9;null&#10;managePatientQuery_model&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;a&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;cus&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;foo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/footer.php&#10;que&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;query&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;ajax&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;head&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;header&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;custo&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;Managepatientquery&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/publicPages/Managepatientquery_model.php&#10;cust&#9;FILE&#9;file://D:/xampp/htdocs/inspector/assets/js/custom.js&#10;datab&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;hea&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/header.php&#10;table&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/publicPages/patientsTable.php&#10;search&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/patientsSearchForm.php&#10;managequ&#9;null&#9;null&#10;data&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;aja&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/ajax/Ajax_conf.php&#10;add&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/adminPages/Addpatient_model.php&#10;addpa&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/addPatient.php&#10;hom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/controllers/Home.php&#10;auth&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/userAuthentication/Userauthentication_model.php&#10;datacom&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/dataComponent.php&#10;topma&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/templates/topMain.php&#10;home&#9;null&#9;null&#10;manageins&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/models/opuPages/Manageinspectors_model.php&#10;manageq&#9;null&#9;null&#10;managehos&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/views/adminPages/manageHospital.php&#10;manageopu&#9;null&#9;null&#10;managepatientq&#9;null&#9;null&#10;database.php&#9;FILE&#9;file://D:/xampp/htdocs/inspector/myApplication/config/database.php&#10;da&#9;ACTION&#9;ActivateDatabaseToolWindow" />
     <property name="last_opened_file_path" value="C:/xampp/htdocs/blog" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -452,12 +426,12 @@
       <workItem from="1465566460378" duration="18291000" />
       <workItem from="1465923563692" duration="646000" />
       <workItem from="1510058347147" duration="15147000" />
-      <workItem from="1518932885260" duration="12157000" />
+      <workItem from="1518932885260" duration="13397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80680000" />
+    <option name="totallyTimeSpent" value="81920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1458,14 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/xampp/htdocs/yasna-core/Modules/Manage/Assets/libs/vendor/Chart.js/dist/Chart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1595,26 +1561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/xampp/htdocs/yasna-core/Modules/Manage/Resources/views/widgets/charts/pie/chartjs-pie.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="6" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1643,14 +1593,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/views/templates/controlPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-update.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApplication/controllers/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myApplication/views/templates/homePieChart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="22" column="148" lean-forward="true" selection-start-line="22" selection-start-column="148" selection-end-line="22" selection-end-column="148" />
+          <folding />
         </state>
       </provider>
     </entry>

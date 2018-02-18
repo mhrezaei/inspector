@@ -20,7 +20,7 @@
             datasets: [
                 {
                     'backgroundColor' : ['#37bc9b', '#ff902b','#7266ba','#232735', '#f05050'],
-                    'data' : ['450','205','509','1589','1643']
+                    'data' : ['<?php echo $donation; ?>','<?php echo $ready; ?>','<?php echo $improved; ?>','<?php echo $dead; ?>','<?php echo $poor; ?>']
                 }
             ]
         };

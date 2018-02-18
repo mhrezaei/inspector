@@ -15,8 +15,9 @@ class Home extends CI_Controller {
     public function index()
 	{
         $data = '';
-        $panelData = array('data'=>$data, 'login_info'=> $this->header_model->login_info() );
+        $panelData = array('data'=>$data, 'login_info'=> $this->header_model->login_info(), 'pie_data' => $this->header_model->data_component() );
 //        var_dump($panelData);
+//        die();
         $this->load->view('templates/header', $this->header_model->header_data());
         $this->load->view('templates/topMain', $this->header_model->login_name_info());
         $this->load->view('templates/dataComponent', $this->header_model->data_component());
