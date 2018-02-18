@@ -141,7 +141,7 @@ li.home span{
 
 .dataComponent{
     max-width: 300px;
-    min-width: auto;
+    min-width: unset;
     width: auto;
     float: none;
 }
@@ -194,12 +194,12 @@ table.table tr td .glyphicon{
     margin: 0 3px;
 }
 
-#addPatientFrom label.control-label{
+.custom-form label.control-label{
     font-weight: normal;
     font-size: 14px;
 }
 
-#addPatientFrom .form-group{
+.custom-form .form-group{
     margin: 5px 0;
 }
 

@@ -6,7 +6,7 @@
     {
 
     ?>
-    <table class="table table-hover table-striped" style="direction: rtl; font-family: 'BNazanin'; font-weight: normal; font-style: normal; font-size: 14px;" id="states">
+    <table class="table table-hover table-striped" style="direction: rtl;     font-weight: normal; font-style: normal; font-size: 14px;" id="states">
         <thead style="direction: rtl; text-align: right;">
             <tr>
                 <th style="width: 5%;">ردیف</th>
@@ -267,7 +267,7 @@
                         <div class="clearB"></div>
                         
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 130px;" class="control-label" for="inputFileNumber">تاریخ ثبت در سامانه:</label>
+                            <label style="float: right;     font-weight: normal; width: 130px;" class="control-label" for="inputFileNumber">تاریخ ثبت در سامانه:</label>
                             <div style="float: right; width: 200px; padding-top: 8px; font-weight: bold; direction: ltr;" id="appRegisterTime">
                                 
                             </div>
@@ -275,27 +275,27 @@
                         
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
                             <div style="direction: ltr; width: 100%;">
-                                <label style="font-family: 'BNazanin'; font-weight: normal;" class="checkbox-inline">
+                                <label style="    font-weight: normal;" class="checkbox-inline">
                                     <input type="checkbox" value="TRUE" name="chisUnknown" id="chisUnknown"> این بیمار ناشناس است
                                 </label>
                             </div>
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 130px;" class="control-label" for="inputFileNumber">شماره پرونده<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; width: 130px;" class="control-label" for="inputFileNumber">شماره پرونده<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <input type="text" placeholder="شماره پرونده بیمار" value="" style="font-family: 'BNazanin';" name="inputFileNumber" id="inputFileNumber" class="form-control">
-                                <input type="hidden" value="" style="font-family: 'BNazanin';" name="inputPT" id="inputPT" class="form-control">
+                                <input type="text" placeholder="شماره پرونده بیمار" value="" style="   " name="inputFileNumber" id="inputFileNumber" class="form-control">
+                                <input type="hidden" value="" style="   " name="inputPT" id="inputPT" class="form-control">
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 130px; padding-right: 10px;" class="control-label" for="inputFullName">نام و نام خانوادگی<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; width: 130px; padding-right: 10px;" class="control-label" for="inputFullName">نام و نام خانوادگی<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 230px;">
-                                <input type="text" placeholder="نام و نام خانوادگی بیمار" value="" style="font-family: 'BNazanin';" name="inputFullName" id="inputFullName" class="form-control">
+                                <input type="text" placeholder="نام و نام خانوادگی بیمار" value="" style="   " name="inputFullName" id="inputFullName" class="form-control">
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 80px; padding-right: 10px;" class="control-label" for="inputNationalCode">کدملی:</label>
+                            <label style="float: right;     font-weight: normal; width: 80px; padding-right: 10px;" class="control-label" for="inputNationalCode">کدملی:</label>
                             <div style="float: right; width: 230px;">
-                                <input type="text" maxlength="10" placeholder="کدملی بیمار" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputNationalCode" id="inputNationalCode" class="form-control">
+                                <input type="text" maxlength="10" placeholder="کدملی بیمار" value="" style="    direction: ltr;" name="inputNationalCode" id="inputNationalCode" class="form-control">
 
                             </div>
                         </div>
@@ -303,49 +303,49 @@
 
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 130px;" class="control-label" for="inputAge">سن<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; width: 130px;" class="control-label" for="inputAge">سن<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <input type="text" placeholder="سن بیمار" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputAge" id="inputAge" class="form-control">
+                                <input type="text" placeholder="سن بیمار" value="" style="    direction: ltr;" name="inputAge" id="inputAge" class="form-control">
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbBodyType">وضعیت بدنی<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbBodyType">وضعیت بدنی<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 230px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbBodyType" id="cbBodyType" class="form-control">
+                                <select style="    direction: rtl;" name="cbBodyType" id="cbBodyType" class="form-control">
                                     <option value="لاغر">لاغر</option>
                                     <option selected="selected" value="متوسط">متوسط</option>
                                     <option value="چاق">چاق</option>
                                 </select>
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputFirstGCS">GCS اولیه بیمار<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputFirstGCS">GCS اولیه بیمار<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 180px;">
-                                <input type="text" placeholder="GCS اولیه بیمار" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputFirstGCS" id="inputFirstGCS" class="form-control" disabled="disabled">
+                                <input type="text" placeholder="GCS اولیه بیمار" value="" style="    direction: ltr;" name="inputFirstGCS" id="inputFirstGCS" class="form-control" disabled="disabled">
                             </div>
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="inputSecondGCS">GCS فعلی<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="inputSecondGCS">GCS فعلی<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <input type="text" placeholder="3 ~ 15" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputSecondGCS" id="inputSecondGCS" class="form-control">
+                                <input type="text" placeholder="3 ~ 15" value="" style="    direction: ltr;" name="inputSecondGCS" id="inputSecondGCS" class="form-control">
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 130px;padding-right: 10px;" class="control-label" for="inputCoordinatorName">نام کوردیناتور<span style="color: red;"></span>:</label>
+                            <label style="float: right;     font-weight: normal; width: 130px;padding-right: 10px;" class="control-label" for="inputCoordinatorName">نام کوردیناتور<span style="color: red;"></span>:</label>
                             <div style="float: right; width: 230px;">
-                                <input type="text" placeholder="نام کوردیناتور" value="" style="font-family: 'BNazanin'; direction: rtl;" name="inputCoordinatorName" id="inputCoordinatorName" class="form-control">
+                                <input type="text" placeholder="نام کوردیناتور" value="" style="    direction: rtl;" name="inputCoordinatorName" id="inputCoordinatorName" class="form-control">
                             </div>
                         </div>
 
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbDoc">علت اختلال هوشیاری<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbDoc">علت اختلال هوشیاری<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbDoc" id="cbDoc" class="form-control">
+                                <select style="    direction: rtl;" name="cbDoc" id="cbDoc" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
-                                <input type="text" placeholder="علت اختلال هوشیاری..." value="" style="font-family: 'BNazanin'; margin-top: 10px; display: none;" name="inputDocDetail" id="inputDocDetail" class="form-control">
+                                <input type="text" placeholder="علت اختلال هوشیاری..." value="" style="    margin-top: 10px; display: none;" name="inputDocDetail" id="inputDocDetail" class="form-control">
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputPatientDetail">توضیحات:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputPatientDetail">توضیحات:</label>
                             <div style="float: right; width: 540px;">
-                                <input type="text" placeholder="سایر توضیحات" value="" style="font-family: 'BNazanin'; direction: rtl;" name="inputPatientDetail" id="inputPatientDetail" class="form-control">
+                                <input type="text" placeholder="سایر توضیحات" value="" style="    direction: rtl;" name="inputPatientDetail" id="inputPatientDetail" class="form-control">
                             </div>
 
                         </div>
@@ -356,16 +356,16 @@
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbHospitals">نام بیمارستان<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbHospitals">نام بیمارستان<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <select disabled="disabled" style="font-family: 'BNazanin'; direction: rtl;" name="cbHospitalsEdit" id="cbHospitalsEdit" class="form-control">
+                                <select disabled="disabled" style="    direction: rtl;" name="cbHospitalsEdit" id="cbHospitalsEdit" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbSection">بخش<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbSection">بخش<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbSectionEdit" id="cbSectionEdit" class="form-control">
+                                <select style="    direction: rtl;" name="cbSectionEdit" id="cbSectionEdit" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">ICU</option>
                                     <option value="2">CCU</option>
@@ -378,14 +378,14 @@
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="inputTypeOfSection">نام بخش:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="inputTypeOfSection">نام بخش:</label>
                             <div style="float: right; width: 200px;">
-                                <input type="text" placeholder="نام بخش" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputTypeOfSection" id="inputTypeOfSection" class="form-control">
+                                <input type="text" placeholder="نام بخش" value="" style="    direction: ltr;" name="inputTypeOfSection" id="inputTypeOfSection" class="form-control">
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px" class="control-label" for="cbPresentioan">نحوه شناسایی بیمار<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px" class="control-label" for="cbPresentioan">نحوه شناسایی بیمار<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 200px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbPresentioan" id="cbPresentioan" class="form-control">
+                                <select style="    direction: rtl;" name="cbPresentioan" id="cbPresentioan" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
                                     <option value="1">بازرس حضوری (IP)</option>
                                     <option value="2">بازرس تلفنی (TDD)</option>
@@ -398,32 +398,32 @@
                         <div class="clearB"></div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbBreathing">Breathing (تنفس):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbBreathing">Breathing (تنفس):</label>
                             <div style="float: right; width: 170px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbBreathing" id="cbBreathing" class="form-control">
+                                <select style="    direction: rtl;" name="cbBreathing" id="cbBreathing" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputBreathingDetail">تعداد/دقیقه:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputBreathingDetail">تعداد/دقیقه:</label>
                             <div style="float: right; width: 220px;">
-                                <input type="text" placeholder="per/min" value="" style="font-family: 'BNazanin'; direction: ltr;" name="inputBreathingDetail" id="inputBreathingDetail" class="form-control">
+                                <input type="text" placeholder="per/min" value="" style="    direction: ltr;" name="inputBreathingDetail" id="inputBreathingDetail" class="form-control">
                             </div>
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbCornea">Cornea (قرنیه):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbCornea">Cornea (قرنیه):</label>
                             <div style="float: right; width: 170px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbCornea" id="cbCornea" class="form-control">
+                                <select style="    direction: rtl;" name="cbCornea" id="cbCornea" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbPupil">Pupil (مردمک):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbPupil">Pupil (مردمک):</label>
                             <div style="float: right; width: 220px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbPupil" id="cbPupil" class="form-control">
+                                <select style="    direction: rtl;" name="cbPupil" id="cbPupil" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
@@ -432,57 +432,57 @@
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbFaceMove">Face Movement (حرکات صورت):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbFaceMove">Face Movement (حرکات صورت):</label>
                             <div style="float: right; width: 170px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbFaceMove" id="cbFaceMove" class="form-control">
+                                <select style="    direction: rtl;" name="cbFaceMove" id="cbFaceMove" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputFaceMovementDetail">توضیحات:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputFaceMovementDetail">توضیحات:</label>
                             <div style="float: right; width: 570px;">
-                                <input type="text" placeholder="توضیحات حرکات صورت" value="" style="font-family: 'BNazanin'; direction: rtl;" name="inputFaceMovementDetail" id="inputFaceMovementDetail" class="form-control">
+                                <input type="text" placeholder="توضیحات حرکات صورت" value="" style="    direction: rtl;" name="inputFaceMovementDetail" id="inputFaceMovementDetail" class="form-control">
                             </div>
                         </div>    
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbBodyMove">Body Movement (حرکات بدن):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbBodyMove">Body Movement (حرکات بدن):</label>
                             <div style="float: right; width: 170px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbBodyMove" id="cbBodyMove" class="form-control">
+                                <select style="    direction: rtl;" name="cbBodyMove" id="cbBodyMove" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputBodyMovementDetail">توضیحات:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="inputBodyMovementDetail">توضیحات:</label>
                             <div style="float: right; width: 570px;">
-                                <input type="text" placeholder="توضیحات حرکات بدن" value="" style="font-family: 'BNazanin'; direction: rtl;" name="inputBodyMovementDetail" id="inputBodyMovementDetail" class="form-control">
+                                <input type="text" placeholder="توضیحات حرکات بدن" value="" style="    direction: rtl;" name="inputBodyMovementDetail" id="inputBodyMovementDetail" class="form-control">
                             </div>
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbDoll">Doll's Eye (چشم&zwnj;عروسکی):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; line-height: 15px;" class="control-label" for="cbDoll">Doll's Eye (چشم&zwnj;عروسکی):</label>
                             <div style="float: right; width: 170px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbDoll" id="cbDoll" class="form-control">
+                                <select style="    direction: rtl;" name="cbDoll" id="cbDoll" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbGag">Gag (بلع):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbGag">Gag (بلع):</label>
                             <div style="float: right; width: 220px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbGag" id="cbGag" class="form-control">
+                                <select style="    direction: rtl;" name="cbGag" id="cbGag" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
                                 </select>
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbCough">Cough (سرفه):</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbCough">Cough (سرفه):</label>
                             <div style="float: right; width: 220px;">
-                                <select style="font-family: 'BNazanin'; direction: rtl;" name="cbCough" id="cbCough" class="form-control">
+                                <select style="    direction: rtl;" name="cbCough" id="cbCough" class="form-control">
                                     <option value="U">نا معلوم (U)</option>
                                     <option value="P">دارد (P)</option>
                                     <option value="N">ندارد (N)</option>
@@ -496,7 +496,7 @@
 
 
                         <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbTol">نوع لیست<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px;" class="control-label" for="cbTol">نوع لیست<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 370px;">
                                 <select style="font-family: 'webYekan'; direction: rtl; font-size: 13px;" name="cbTol" id="cbTol" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
@@ -507,12 +507,12 @@
                                 </select>
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbPatientStatus">وضعیت بیمار<span style="color: red;"> *</span>:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 130px; padding-right: 10px;" class="control-label" for="cbPatientStatus">وضعیت بیمار<span style="color: red;"> *</span>:</label>
                             <div style="float: right; width: 370px;">
                                 <select style="font-family: 'webYekan'; direction: rtl; font-size: 13px;" name="cbPatientStatusEdit" id="cbPatientStatusEdit" class="form-control">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
-                                <input type="text" placeholder="وضعیت بیمار ..." value="" style="font-family: 'BNazanin'; margin-top: 10px; display: none;" name="inputPatientStatusDetail" id="inputPatientStatusDetail" class="form-control">
+                                <input type="text" placeholder="وضعیت بیمار ..." value="" style="    margin-top: 10px; display: none;" name="inputPatientStatusDetail" id="inputPatientStatusDetail" class="form-control">
                             </div>
                         </div>
 
@@ -565,7 +565,7 @@
                                 </div>
                             </div>
                             <div style="margin-left: 0px; margin-right: 0px;" class="form-group">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 320px;" class="checkbox-inline" for="cbSedation2"> آیا بیمار داروهای آرام بخش (Sedation) دریافت می کند؟</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 320px;" class="checkbox-inline" for="cbSedation2"> آیا بیمار داروهای آرام بخش (Sedation) دریافت می کند؟</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="TRUE" name="cbSedation2" id="cbSedation2">
                                 </div>
@@ -652,47 +652,47 @@
                             <div class="clearB"></div>
 
                             <div style="margin-left: 0px; margin-right: 0px; direction: ltr;" class="form-group">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 30px; margin-right: 70px;" class="checkbox-inline" for="chHeart"> قلب</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 30px; margin-right: 70px;" class="checkbox-inline" for="chHeart"> قلب</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chHeart" id="chHeart">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 30px;" class="checkbox-inline" for="chLiver"> کبد</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 30px;" class="checkbox-inline" for="chLiver"> کبد</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chLiver" id="chLiver">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 75px;" class="checkbox-inline" for="chKidneyRight"> کلیه راست</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 75px;" class="checkbox-inline" for="chKidneyRight"> کلیه راست</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chKidneyRight" id="chKidneyRight">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chKidneyLeft"> کلیه چپ</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chKidneyLeft"> کلیه چپ</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chKidneyLeft" id="chKidneyLeft">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chLungRight"> ریه راست</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chLungRight"> ریه راست</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chLungRight" id="chLungRight">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chLungLeft"> ریه چپ</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 70px;" class="checkbox-inline" for="chLungLeft"> ریه چپ</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chLungLeft" id="chLungLeft">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 50px;" class="checkbox-inline" for="chPancreas"> پانکراس</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 50px;" class="checkbox-inline" for="chPancreas"> پانکراس</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chPancreas" id="chPancreas">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 40px;" class="checkbox-inline" for="chTissue"> نسج</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 40px;" class="checkbox-inline" for="chTissue"> نسج</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chTissue" id="chTissue">
                                 </div>
 
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; direction: rtl; width: 40px;" class="checkbox-inline" for="chBowel"> روده</label>
+                                <label style="float: right;     font-weight: normal; direction: rtl; width: 40px;" class="checkbox-inline" for="chBowel"> روده</label>
                                 <div style="float: right; direction: ltr; width: 50px; padding-top: 10px;">
                                     <input type="checkbox" style="direction: rtl;" value="1" name="chBowel" id="chBowel">
                                 </div>
@@ -708,23 +708,23 @@
                         <div style="margin-left: 0px; margin-right: 0px; direction: rtl;" class="form-group">
 
                             <div class="col-md-4" id="hospitalizationDate" style="float: right;">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal1">تاریخ بستری<span style="color: red;"> *</span>:</label>
+                                <label style="float: right;     font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal1">تاریخ بستری<span style="color: red;"> *</span>:</label>
                                 <div style="float: right; width: 150px;">
-                                    <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 100px; float: right; text-align: center;" name="pcal1" id="pcal1" class="form-control">
+                                    <input type="text" value="" style="    direction: rtl; width: 100px; float: right; text-align: center;" name="pcal1" id="pcal1" class="form-control">
                                 </div>
                             </div>
 
                             <div class="col-md-4" id="gcs3ByDrData" style="float: right;">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 100px; line-height: 16px; margin-right: 20px;" class="control-label" for="pcal2">تاریخ اعلام <span style="font-family: 'webYekan'; font-size: 14px;">GCS3</span> <small>توسط پزشک معالج</small>:</label>
+                                <label style="float: right;     font-weight: normal; text-align: right; width: 100px; line-height: 16px; margin-right: 20px;" class="control-label" for="pcal2">تاریخ اعلام <span style="font-family: 'webYekan'; font-size: 14px;">GCS3</span> <small>توسط پزشک معالج</small>:</label>
                                 <div style="float: right; width: 150px;">
-                                    <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 100px; float: right; text-align: center;" name="pcal2" id="pcal2" class="form-control">
+                                    <input type="text" value="" style="    direction: rtl; width: 100px; float: right; text-align: center;" name="pcal2" id="pcal2" class="form-control">
                                 </div>
                             </div>
 
                             <div class="col-md-4" id="foundGcs3Date" style="float: right;">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 140px; line-height: 16px; margin-right: 20px;" class="control-label" for="pcal3">تاریخ شناسایی مرگ مغزی:</label>
+                                <label style="float: right;     font-weight: normal; text-align: right; width: 140px; line-height: 16px; margin-right: 20px;" class="control-label" for="pcal3">تاریخ شناسایی مرگ مغزی:</label>
                                 <div style="float: right; width: 140px;">
-                                    <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 100px; float: right; text-align: center;" name="pcal3" id="pcal3" class="form-control">
+                                    <input type="text" value="" style="    direction: rtl; width: 100px; float: right; text-align: center;" name="pcal3" id="pcal3" class="form-control">
                                 </div>
                             </div>
 
@@ -738,16 +738,16 @@
 
 
                             <div class="col-md-4" id="organDonationDate" style="float: right;">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal5">تاریخ اهدا:</label>
+                                <label style="float: right;     font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal5">تاریخ اهدا:</label>
                                 <div style="float: right; width: 150px;">
-                                    <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 100px; float: right; text-align: center;" name="pcal5" id="pcal5" class="form-control">
+                                    <input type="text" value="" style="    direction: rtl; width: 100px; float: right; text-align: center;" name="pcal5" id="pcal5" class="form-control">
                                 </div>
                             </div>
 
                             <div class="col-md-4" id="cardiacDeathDate" style="float: right;">
-                                <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal6">تاریخ مرگ قلبی:</label>
+                                <label style="float: right;     font-weight: normal; text-align: right; width: 100px;" class="control-label" for="pcal6">تاریخ مرگ قلبی:</label>
                                 <div style="float: right; width: 150px;">
-                                    <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 100px; float: right; text-align: center;" name="pcal6" id="pcal6" class="form-control">
+                                    <input type="text" value="" style="    direction: rtl; width: 100px; float: right; text-align: center;" name="pcal6" id="pcal6" class="form-control">
                                 </div>
                             </div>
 
@@ -770,32 +770,32 @@
                         <div class="clearB"></div>
 
                         <div style="margin-left: 0px; margin-right: 0px; direction: rtl;" class="form-group">
-                            <label for="cbTransferState" class="control-label" style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 80px;">استان:</label>
+                            <label for="cbTransferState" class="control-label" style="float: right;     font-weight: normal; width: 80px;">استان:</label>
                             <div style="width: 200px; float: right;">
-                                <select class="form-control" id="cbTransferState" name="cbTransferState" style="font-family: 'BNazanin'; direction: rtl;" onchange="insertcity('cbTransferCity', 'cbTransferState', false);">
+                                <select class="form-control" id="cbTransferState" name="cbTransferState" style="    direction: rtl;" onchange="insertcity('cbTransferCity', 'cbTransferState', false);">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
 
-                            <label for="cbTransferCity" class="control-label" style="float: right; font-family: 'BNazanin'; font-weight: normal; margin-right: 20px; width: 80px;">شهر:</label>
+                            <label for="cbTransferCity" class="control-label" style="float: right;     font-weight: normal; margin-right: 20px; width: 80px;">شهر:</label>
                             <div style="width: 200px; float: right;">
-                                <select class="form-control" id="cbTransferCity" name="cbTransferCity" style="font-family: 'BNazanin'; direction: rtl;" onchange="insertHospital('cbTransferHospital', 'cbTransferCity', false, 'city');" disabled="disabled">
+                                <select class="form-control" id="cbTransferCity" name="cbTransferCity" style="    direction: rtl;" onchange="insertHospital('cbTransferHospital', 'cbTransferCity', false, 'city');" disabled="disabled">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
                         </div>
 
                         <div style="margin-left: 0px; margin-right: 0px; direction: rtl;" class="form-group">
-                            <label for="cbTransferHospital" class="control-label" style="float: right; font-family: 'BNazanin'; font-weight: normal; width: 80px;">بیمارستان:</label>
+                            <label for="cbTransferHospital" class="control-label" style="float: right;     font-weight: normal; width: 80px;">بیمارستان:</label>
                             <div style="width: 200px; float: right;">
-                                <select class="form-control" id="cbTransferHospital" name="cbTransferHospital" style="font-family: 'BNazanin'; direction: rtl;" disabled="disabled">
+                                <select class="form-control" id="cbTransferHospital" name="cbTransferHospital" style="    direction: rtl;" disabled="disabled">
                                     <option value="0">انتخاب کنید...</option>
                                 </select>
                             </div>
 
-                            <label style="float: right; font-family: 'BNazanin'; font-weight: normal; text-align: right; width: 80px; margin-right: 20px;" class="control-label" for="pcal4">تاریخ انتقال:</label>
+                            <label style="float: right;     font-weight: normal; text-align: right; width: 80px; margin-right: 20px;" class="control-label" for="pcal4">تاریخ انتقال:</label>
                             <div style="float: right; width: 200px;">
-                                <input type="text" value="" style="font-family: 'BNazanin'; direction: rtl; width: 170px; float: right; text-align: center;" name="pcal4" id="pcal4" class="form-control">
+                                <input type="text" value="" style="    direction: rtl; width: 170px; float: right; text-align: center;" name="pcal4" id="pcal4" class="form-control">
                             </div>
 
                             <script>
@@ -813,8 +813,8 @@
                     </div>
                 </div>
                 <!-- loading -->
-                <div id="dangerAlert" style="padding: 10px; width: 50%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center;" class="alert alert-danger" role="alert">لطفا موارد ستاره دار را به درستی تکمیل نمائید.</div>
-                <div id="successAlert" style="padding: 10px; width: 50%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center;" class="alert alert-success" role="alert"></div>
+                <div id="dangerAlert" style="padding: 10px; width: 50%; margin: 0 auto;     font-weight: normal; text-align: center;" class="alert alert-danger" role="alert">لطفا موارد ستاره دار را به درستی تکمیل نمائید.</div>
+                <div id="successAlert" style="padding: 10px; width: 50%; margin: 0 auto;     font-weight: normal; text-align: center;" class="alert alert-success" role="alert"></div>
             </div>
             <div class="modal-footer">
                 <button id="saveBTN" style="float: left; font-family: 'BYekan';" class="btn btn-success" type="button">ارسال اطلاعات</button>
@@ -840,7 +840,7 @@
                 <div id="patientLogDiv" style="display: none;">
                     <div class="formCat">تغییرات بیمار</div>
                     <div class="clearB"></div>
-                    <table class="table table-hover table-striped" style="direction: rtl; font-family: 'BNazanin'; font-weight: normal; font-style: normal; font-size: 14px; width: 1050px;">
+                    <table class="table table-hover table-striped" style="direction: rtl;     font-weight: normal; font-style: normal; font-size: 14px; width: 1050px;">
                         <thead style="direction: rtl; text-align: right;">
                             <tr>
                                 <th style="width: 50px;">ردیف</th>
@@ -947,7 +947,7 @@
                     </div>
                 </div>
                 <!-- loading -->
-                <div id="dangerAlert2" style="padding: 10px; width: 50%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none;" class="alert alert-danger" role="alert"></div>
+                <div id="dangerAlert2" style="padding: 10px; width: 50%; margin: 0 auto;     font-weight: normal; text-align: center; display: none;" class="alert alert-danger" role="alert"></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" style="float: left; font-family: 'BYekan';" data-dismiss="modal">بستن</button>
@@ -976,9 +976,9 @@
                 </div>
 
 
-                <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="dangerAlertStatus2">خطایی در حذف بیمار رخ داده است، لطفاً دوباره تلاش نمائید.</div>
+                <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="dangerAlertStatus2">خطایی در حذف بیمار رخ داده است، لطفاً دوباره تلاش نمائید.</div>
 
-                <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="dangerAlertStatus3">بیمار مورد نظر با موفقیت حذف شد.</div>
+                <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="dangerAlertStatus3">بیمار مورد نظر با موفقیت حذف شد.</div>
 
             </div>
             <div class="modal-footer">
@@ -1009,9 +1009,9 @@
                 </div>
 
 
-                <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="undoDangerAlertStatus2">خطایی در بازگرداندن بیمار رخ داده است، لطفاً دوباره تلاش نمائید.</div>
+                <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="undoDangerAlertStatus2">خطایی در بازگرداندن بیمار رخ داده است، لطفاً دوباره تلاش نمائید.</div>
 
-                <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="undoDangerAlertStatus3">بیمار مورد نظر با موفقیت بازگردانده شد.</div>
+                <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="undoDangerAlertStatus3">بیمار مورد نظر با موفقیت بازگردانده شد.</div>
 
             </div>
             <div class="modal-footer">
@@ -1043,9 +1043,9 @@
                     </div>
 
 
-                    <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="transferAPatientModalDanger1">خطایی در تغییر وضعیت بیمار رخ داده است، لطفاٌ دوباره تلاش نمائید.</div>
+                    <div role="alert" class="alert alert-danger" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="transferAPatientModalDanger1">خطایی در تغییر وضعیت بیمار رخ داده است، لطفاٌ دوباره تلاش نمائید.</div>
 
-                    <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto; font-family: 'BNazanin'; font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="transferAPatientModalDanger2">وضعیت بیمار با موفقیت تغییر کرد.</div>
+                    <div role="alert" class="alert alert-success" style="padding: 10px; width: 100%; margin: 0 auto;     font-weight: normal; text-align: center; display: none; margin-top: 10px;" id="transferAPatientModalDanger2">وضعیت بیمار با موفقیت تغییر کرد.</div>
 
                 </div>
                 <div class="modal-footer">

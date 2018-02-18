@@ -16,7 +16,7 @@
         <div style="width: 100%; height: auto; direction: rtl; margin: 0 auto;">
 
             <div id="addPatientFrom" class="container">
-                <form class="form-horizontal" role="form" name="addPatientForm" method="post">
+                <form class="form-horizontal custom-form" role="form" name="addPatientForm" method="post">
                     <div class="row">
                         <div class="col-sm-12">
                             <?php if($patientInsertStatus == 1){ ?>
