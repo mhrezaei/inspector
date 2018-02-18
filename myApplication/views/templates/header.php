@@ -29,6 +29,7 @@
             return url;
         }
     </script>
+    <script type="text/javascript" src="<?php echo asset_url(); ?>js/chartjs/Chart.js"></script>
     <script src="<?php echo asset_url(); ?>js/custom.js?time=<?php echo time(); ?>"></script>
 
 </head>
