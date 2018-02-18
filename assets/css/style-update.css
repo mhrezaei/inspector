@@ -203,6 +203,14 @@ table.table tr td .glyphicon{
     margin: 5px 0;
 }
 
+.custom-table thead{
+    text-align: left !important;
+}
+
+.custom-table thead tr th{
+    text-align: left !important;
+}
+
 /*
 *-------------------------------------------------------
 * Modal
